@@ -52,10 +52,10 @@ app.component("my-about",{
                     <p>I'm a software engineer with more than 5 years of professional and commercial experience in development of software, web apps, games, 3D, AR and VR applications with various tech stacks and pipelines.</p>
                     <div class="text-center text-md-left">
                         <div class="btn-group" role="group">
-                            <a href="mailto:rosarioterranova91@gmail.com" target="_blank"><i class="far fa-envelope"></i> Email</a>
-                            <a href="https://www.linkedin.com/in/rosarioterranova/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i> LinkedIn</a>
-                            <a href="https://github.com/rosarioterranova" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="https://twitter.com/rosterranova" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="mailto:rosarioterranova91@gmail.com" target="_blank"><button type="button" class="btn btn-success m-1"><i class="far fa-envelope"></i> Email</button></a>
+                            <a href="https://www.linkedin.com/in/rosarioterranova/" target="_blank"><button type="button" class="btn btn-info m-1"><i class="fab fa-fw fa-linkedin-in"></i> LinkedIn</button></a>
+                            <a href="https://github.com/rosarioterranova" target="_blank"><button type="button" class="btn btn-dark m-1"><i class="fab fa-github"></i> GitHub</button></a>
+                            <a href="https://twitter.com/rosterranova" target="_blank"><button type="button" class="btn btn-primary m-1"><i class="fab fa-twitter"></i> Twitter</button></a>
                         </div>
                     </div>
                 </div>
@@ -91,24 +91,16 @@ app.component("my-project",{
 app.component("my-portfolio", {
     template:`
     <div>
-        <div class="text-center">
-            <button type="button" class="btn" :class="{'btn-dark': !showGames, 'btn-primary': showGames}" @click="showGames = !showGames"><i class="fa fa-gamepad" aria-hidden="true"></i> Games</button>
-            <button type="button" class="btn mx-2" :class="{'btn-dark': !showWeb, 'btn-primary': showWeb}" @click="showWeb = !showWeb"><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Apps</button>
-            <button type="button" class="btn" :class="{'btn-dark': !showMobile, 'btn-primary': showMobile}" @click="showMobile = !showMobile"><i class="fa fa-globe" aria-hidden="true"></i> Web Apps</button>
-        </div>
-
-        <div class="my-4 text-center" v-if="!showGames && !showWeb && !showMobile">
-            <p><i class="gear fa fa-cog fa-6x" aria-hidden="true"></i></p>
-            <p> Please select a category... </p>
-        </div>
-
-        <div class="row container-fluid my-5 text-center mx-auto" v-if="showGames">
+        <h1 class="text-center" id="/games">Games</h1>
+        <div class="row container-fluid my-5 text-center mx-auto">
             <my-project v-for="project in gamesData" :data="project" />
         </div>
-        <div class="row container-fluid my-5 text-center mx-auto" v-if="showWeb">
+        <h1 class="text-center" id="/mobile-apps">Mobile Apps</h1>
+        <div class="row container-fluid my-5 text-center mx-auto">
             <my-project  v-for="project in mobileData" :data="project" />
         </div>
-        <div class="row container-fluid my-5 text-center mx-auto" v-if="showMobile">
+        <h1 class="text-center" id="/web-apps">Web Apps</h1>
+        <div class="row container-fluid my-5 text-center mx-auto">
             <my-project  v-for="project in webData" :data="project" />
         </div>
     </div>
@@ -130,9 +122,6 @@ app.component("my-portfolio", {
     },
     data(){
         return{
-            showGames: false,
-            showWeb: false,
-            showMobile: false,
             gamesData:[],
             webData:[],
             mobileData:[]
@@ -145,7 +134,7 @@ app.component("my-portfolio", {
 
 app.component("my-footer",{
     template:`
-    <footer class="text-center text-light bg-dark py-2 mt-4">
+    <footer class="text-center text-light bg-dark py-2">
         © Rosario Terranova {{ new Date().getFullYear() }} | Made with <a href="https://vuejs.org/">Vue.js</a>
     </footer>
     `
