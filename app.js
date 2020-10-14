@@ -71,11 +71,11 @@ app.component("my-project",{
             <div class="card bg-dark h-100">
                 <img class="card-img-top" :src="data.img">
                 <div class="card-body">
-                    <h5 class="card-title"> {{data.title}} </h5>
-                    <p class="card-text text-left">{{data.description}}</p>
-                    <div class="text-right">
-                        <span class="card-text badge badge-pill badge-info text-light">{{data.tech}}</span>
-                        <span class="card-text badge badge-pill badge-success text-light">{{data.platforms}}</span>
+                    <h5 class="card-title"> <b>{{data.title}}</b> </h5>
+                    <p class="card-text text-justify">{{data.description}}</p>
+                    <div class="text-left">
+                        <p><b>Tech</b>: <span class="text-secondary"> {{data.tech}}</span></p>
+                        <p><b>Platforms</b>: <span class="text-secondary"> {{data.platforms}}</span></p>
                     </div>
                 </div>
                 <div class = "row m-2">
