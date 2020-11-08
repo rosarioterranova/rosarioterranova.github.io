@@ -55,7 +55,7 @@ app.component("my-about",{
                             <a href="mailto:rosarioterranova91@gmail.com" target="_blank"><button type="button" class="btn btn-success m-1"><i class="far fa-envelope"></i> Email</button></a>
                             <a href="https://www.linkedin.com/in/rosarioterranova/" target="_blank"><button type="button" class="btn btn-info m-1"><i class="fab fa-fw fa-linkedin-in"></i> LinkedIn</button></a>
                             <a href="https://github.com/rosarioterranova" target="_blank"><button type="button" class="btn btn-dark m-1"><i class="fab fa-github"></i> GitHub</button></a>
-                            <a href="https://twitter.com/rosterranova" target="_blank"><button type="button" class="btn btn-primary m-1"><i class="fab fa-twitter"></i> Twitter</button></a>
+                            <a href="https://www.facebook.com/rosterranova/" target="_blank"><button type="button" class="btn btn-primary m-1"><i class="fab fa-facebook"></i> Facebook</button></a>
                         </div>
                     </div>
                 </div>
