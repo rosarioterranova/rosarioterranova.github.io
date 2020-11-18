@@ -55,6 +55,7 @@ app.component("my-about",{
                             <a href="mailto:rosarioterranova91@gmail.com" target="_blank"><button type="button" class="btn btn-success m-1"><i class="far fa-envelope"></i> Email</button></a>
                             <a href="https://www.linkedin.com/in/rosarioterranova/" target="_blank"><button type="button" class="btn btn-info m-1"><i class="fab fa-fw fa-linkedin-in"></i> LinkedIn</button></a>
                             <a href="https://github.com/rosarioterranova" target="_blank"><button type="button" class="btn btn-dark m-1"><i class="fab fa-github"></i> GitHub</button></a>
+                            <a href="https://twitter.com/rosterranova" target="_blank"><button type="button" class="btn btn-primary m-1"><i class="fab fa-twitter"></i> Twitter</button></a>
                             <a href="https://www.facebook.com/rosterranova/" target="_blank"><button type="button" class="btn btn-primary m-1"><i class="fab fa-facebook"></i> Facebook</button></a>
                         </div>
                     </div>
@@ -67,12 +68,12 @@ app.component("my-about",{
 
 app.component("my-project",{
     template:`
-    <div class="col-12 col-md-6 col-xl-4 mb-3">
+    <div class="col-12 col-md-6 col-xl-3 mb-3">
             <div class="card bg-dark h-100">
                 <img class="card-img-top" :src="data.img">
                 <div class="card-body">
                     <h5 class="card-title"> <b>{{data.title}}</b> </h5>
-                    <p class="card-text text-justify">{{data.description}}</p>
+                    <p class="card-text text-left">{{data.description}}</p>
                     <div class="text-left">
                         <p><b>Tech</b>: <span class="text-secondary"> {{data.tech}}</span></p>
                         <p><b>Platforms</b>: <span class="text-secondary"> {{data.platforms}}</span></p>
