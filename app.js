@@ -40,15 +40,17 @@ app.component("my-about",{
     template: `
     <div>
         <div class="container-fluid text-center text-light bg-dark p-5">
-            <h1 class="display-4 mt-4">Rosario Terranova</h1>
-            <p class="lead">Senior Software Engineer</p>
+            <div class="animate__animated animate__swing">
+                <h1 class="display-4 mt-4">Rosario Terranova</h1>
+                <p class="lead">Senior Software Engineer</p>
+            </div>
         </div>
         <div class="container my-5">
             <div class="row">
                 <div class="col-12 col-md-4 text-center">
-                    <img id="img-profile" src="img/me.jpg" class="rounded-circle float-md-right mb-1" alt="Rosario Terranova">
+                    <img id="img-profile" src="img/me.jpg" class="rounded-circle float-md-right mb-1 animate__animated animate__zoomInLeft" alt="Rosario Terranova">
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-8  animate__animated animate__zoomInRight">
                     <p>I'm a software engineer with more than 5 years of professional and commercial experience in development of software, web apps, games, 3D, AR and VR applications with various tech stacks and pipelines.</p>
                     <div class="text-center text-md-left">
                         <div class="btn-group" role="group">
@@ -69,7 +71,7 @@ app.component("my-about",{
 app.component("my-project",{
     template:`
     <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card bg-dark h-100">
+            <div class="card bg-dark h-100 animate__animated animate__flipInY">
                 <img class="card-img-top" :src="data.img">
                 <div class="card-body">
                     <h5 class="card-title"> <b>{{data.title}}</b> </h5>
@@ -92,15 +94,15 @@ app.component("my-project",{
 app.component("my-portfolio", {
     template:`
     <div>
-        <h1 class="text-center" id="/games">Games</h1>
+        <h1 class="text-center animate__animated animate__backInRight" id="/games">Games</h1>
         <div class="row container-fluid my-5 text-center mx-auto">
             <my-project v-for="project in gamesData" :data="project" />
         </div>
-        <h1 class="text-center" id="/mobile-apps">Mobile Apps</h1>
+        <h1 class="text-center animate__animated animate__backInRight" id="/mobile-apps">Mobile Apps</h1>
         <div class="row container-fluid my-5 text-center mx-auto">
             <my-project  v-for="project in mobileData" :data="project" />
         </div>
-        <h1 class="text-center" id="/web-apps">Web Apps</h1>
+        <h1 class="text-center animate__animated animate__backInRight" id="/web-apps">Web Apps</h1>
         <div class="row container-fluid my-5 text-center mx-auto">
             <my-project  v-for="project in webData" :data="project" />
         </div>
