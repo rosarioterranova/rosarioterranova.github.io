@@ -51,7 +51,7 @@ app.component("my-about",{
                     <img id="img-profile" src="img/me.jpg" class="rounded-circle float-md-right mb-1 animate__animated animate__zoomInLeft" alt="Rosario Terranova">
                 </div>
                 <div class="col-12 col-md-8  animate__animated animate__zoomInRight">
-                    <p>I'm a software engineer with more than 5 years of professional and commercial experience in development of software, web apps, games, 3D, AR and VR applications with various tech stacks and pipelines.</p>
+                    <p>I'm a software engineer with many years of professional and commercial experience in the development of software, fullstack web apps, games, 3D, AR and VR applications with various technologies and pipelines.</p>
                     <div class="text-center text-md-left">
                         <div class="btn-group" role="group">
                             <a href="mailto:rosarioterranova91@gmail.com" target="_blank"><button type="button" class="btn btn-success m-1"><i class="far fa-envelope"></i> Email</button></a>
