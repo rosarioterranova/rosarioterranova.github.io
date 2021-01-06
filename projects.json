@@ -1,5 +1,15 @@
 [
-        {
+    {
+        "img":"../img/projects/InfiniteRedditPics.jpg",
+        "title":"Infinite Reddit Pics",
+        "link":"https://rosarioterranova.github.io/Infinite-Reddit-Pics/",
+        "linkCode": "https://github.com/rosarioterranova/Infinite-Reddit-Pics",
+        "category": "web",
+        "tech": "JavaScript, Vue.js, FetchAPI",
+        "platforms": "Front-End",
+        "description": "Infinite scrolling app that takes pictures from top reddit pics subreddit using the Reddit Listing API"
+    },
+    {
         "img":"../img/projects/covid19italia.jpg",
         "title":"Covid-19 Italia",
         "link":"https://rosarioterranova.github.io/covid19italia/",
