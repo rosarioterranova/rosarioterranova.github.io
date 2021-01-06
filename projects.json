@@ -1,14 +1,5 @@
 [
-    {
-        "img":"../img/projects/sarioRC.jpg",
-        "title":"sarioRC",
-        "linkCode": "https://github.com/rosarioterranova/sarioRC",
-        "category": "web",
-        "tech": "PHP",
-        "platforms": "Back-End",
-        "description": "SarioRC (render components) is a microframework written in PHP that make super easy to write a PHP web app with a components base approach."
-    },
-    {
+        {
         "img":"../img/projects/covid19italia.jpg",
         "title":"Covid-19 Italia",
         "link":"https://rosarioterranova.github.io/covid19italia/",
@@ -16,7 +7,7 @@
         "category": "web",
         "tech": "JavaScript, Vue.js, Chart.js, FetchAPI",
         "platforms": "Front-End",
-        "description": "Strumento online open source per monitorare giorno per giorno il numero dei contagiati di COVID-19 in Italia. Web App di Rosario Terranova. Dati da Covid19API, grafici di ChartJS"
+        "description": "Open source online tool to monitoring the number of people infected with COVID-19 in Italy day by day. Data from pcm-dpc/COVID-19, charts by ChartJS"
     },
     {
         "img":"../img/projects/chat.jpg",
@@ -45,7 +36,17 @@
         "category": "web",
         "platforms": "Full-Stack",
         "tech": "PHP, Jquery",
-        "description": "App sviluppata in PHP e JQuery, con l'utilizzo delle API WeatherSkack"
+        "description": "App developed in PHP and JQuery, using the WeatherSkack API"
+    },
+
+    {
+        "img":"../img/projects/sarioRC.jpg",
+        "title":"sarioRC",
+        "linkCode": "https://github.com/rosarioterranova/sarioRC",
+        "category": "web",
+        "tech": "PHP",
+        "platforms": "Back-End",
+        "description": "SarioRC (render components) is a microframework written in PHP that make super easy to write a PHP web app with a components base approach."
     },
 
     {
@@ -55,7 +56,7 @@
         "category": "web",
         "platforms": "Front-End",
         "tech": "JavaScript, Bootstrap",
-        "description":"Mozilla è l'organizzazione senza fini di lucro che ha realizzato Firefox, il primo browser alternativo. Da sempre promuove prodotti e linee di condotta per mantenere Internet al servizio delle persone, non dei propri profitti."
+        "description":"Mozilla is the non-profit organization that made Firefox, the first alternative browser. It has always promoted products and policies to keep the Internet at the service of people"
     },
 
     {
