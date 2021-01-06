@@ -146,7 +146,7 @@
         "tech": "Unity, C#",
         "link":"https://www.youtube.com/watch?v=Its44ujAJgI&feature=emb_title",
         "category": "games",
-        "description":"Trip eMotion è il serious game in cui potrai esplorare i beni culturali in maniera divertente, veloce e accessibile a tutti. Grazie all’ausilio delle tecnologie più innovative, i siti d’interesse e gli spazi museali all’interno del gioco vengono ricostruiti in 3D con la massima fedeltà, dando così vita a un’esperienza che poco ha a che fare con il tradizionale tour virtuale"
+        "description":"Trip eMotion is the serious game in which you can explore cultural heritage in a fun, fast and accessible way to everyone. Thanks to the use of the most innovative technologies, the sites of interest and museum spaces within the game are reconstructed in 3D with the utmost fidelity, thus creating an experience that has little to do with the traditional virtual tour"
     },
 
     {
@@ -222,7 +222,7 @@
         "category": "games",
         "platforms": "PC, Windows Phone, UWP",
         "tech": "Unity, C#",
-        "description":"Slenderman Returns è un videogioco fortemente ispirato all’originale videogioco indipendente 'Slender: The Eight Pages', ma ridisegnato per girare sul famoso motore di gioco Unity."
+        "description":"Slenderman Returns is a video game heavily inspired by the original independent video game 'Slender: The Eight Pages', but redesigned to run on the famous Unity game engine."
     },
 
     {
