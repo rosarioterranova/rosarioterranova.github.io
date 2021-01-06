@@ -136,7 +136,7 @@
         "platforms": "Android, iOS",
         "category": "mobile",
         "tech": "Unity, C#",
-        "description":"L’inglese non è mai stato così divertente…lasciati accompagnare da Elly nella sua magica avventura. Scegli il libro e punta la fotocamera sui simboli speciali che trovi all’interno del libro."
+        "description":"English has never been so fun... let Elly take you on her magical adventure. Choose the book and point the camera at the special symbols you find inside the book."
     },
 
     {
@@ -168,7 +168,7 @@
         "platforms": "Windows Phone, UWP",
         "category": "mobile",
         "tech": "UWP, C#",
-        "description":"Grazie a questa app rimarrai sempre aggiornato con le novità, bandi, date, modalità delle prove, punteggi minimi e tanto altro ancora riguardante il test nazionale d'ammissione a medicina, chirurgia e odontoiatria dell'anno 2014/2015."
+        "description":"Thanks to this app you will always be updated with the news, calls, dates, test methods, minimum scores and much more regarding the national admission test for medicine and surgery university course."
     },
 
     {
@@ -190,7 +190,7 @@
         "category": "mobile",
         "platforms": "Windows Phone, UWP",
         "tech": "UWP, C#",
-        "description":"Grazie a questa app rimarrai sempre aggiornato con le novità, bandi, date, punteggi minimi e tanto altro ancora riguardante il test nazionale d'ammissione a veterinaria dell'anno 2014/2015."
+        "description":"Thanks to this app you will always be updated with the news, calls, dates, test methods, minimum scores and much more regarding the national admission test for veterinary university course."
     },
 
     {
@@ -233,7 +233,7 @@
         "category": "mobile",
         "platforms": "Windows Phone, UWP",
         "tech": "UWP, C#",
-        "description":"Quest'app contiene l'intera raccolta delle emozionanti fiabe scritte dai fratelli Grimm. Questi fiabe sono considerate oggi come le più profonde e significative della storia della letteratura mondiale, con il dublice scopo di dilettare ed educare il lettore; per questo non esiste un'età consigliata per la lettura, ma chiunque, bambino o adulto che sia può trarne divertimento ed un profondo significato da queste fiabe."
+        "description":"This app contains the entire collection of exciting fairy tales written by the Brothers Grimm. These fairy tales are considered today as the most profound and significant in the history of world literature, with the dubious purpose of delighting and educating the reader; for this there is no recommended age for reading, but anyone, child or adult who is can draw fun and a deep meaning from these fairy tales."
     },
 
     {
@@ -243,6 +243,6 @@
         "category": "mobile",
         "platforms": "Windows Phone, UWP",
         "tech": "UWP, C#",
-        "description":"La Fontaine si presenta come il continuatore di Esopo e Fedro ed il discepolo di Epicuro; ha spesso intenzioni morali e la satira e il contrasto sono fra i suoi metodi preferiti. Fra le favole più celebri 'Il gallo e la volpe', 'Il corvo e la volpe', 'Il gatto e la tigre' (da Wikipedia)."
+        "description":"La Fontaine presents himself as the continuer of Aesop and Phaedrus and the disciple of Epicurus; he often has moral intentions and satire and contrast are among his favorite methods. Among the most famous fairy tales 'The rooster and the fox', 'The crow and the fox', 'The cat and the tiger'"
     }
 ]
