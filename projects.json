@@ -1,5 +1,15 @@
 [
     {
+        "img":"../img/projects/TheFinalCountDown.jpg",
+        "title":"The Final CountDown",
+        "link":"https://rosarioterranova.github.io/TheFinalCountdown/",
+        "linkCode": "https://github.com/rosarioterranova/TheFinalCountdown",
+        "category": "web",
+        "tech": "JavaScript, Vue.js, FetchAPI",
+        "platforms": "Front-End",
+        "description": "Web app to save a custom countdown and check whener you want. You can also choose to switch to light or dark mode, settings are saved."
+    },
+    {
         "img":"../img/projects/InfiniteRedditPics.jpg",
         "title":"Infinite Reddit Pics",
         "link":"https://rosarioterranova.github.io/Infinite-Reddit-Pics/",
