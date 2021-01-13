@@ -1,11 +1,21 @@
 [
     {
+        "img":"../img/projects/minikanban.jpg",
+        "title":"Mini Kanban",
+        "link":"https://rosarioterranova.github.io/MiniKanban/",
+        "linkCode": "https://github.com/rosarioterranova/MiniKanban",
+        "category": "web",
+        "tech": "JavaScript",
+        "platforms": "Front-End",
+        "description": "Web app with drag and drop features that allows to schedule tasks for personal projects. Written in vanilla js"
+    },
+    {
         "img":"../img/projects/TheFinalCountDown.jpg",
         "title":"The Final CountDown",
         "link":"https://rosarioterranova.github.io/TheFinalCountdown/",
         "linkCode": "https://github.com/rosarioterranova/TheFinalCountdown",
         "category": "web",
-        "tech": "JavaScript, Vue.js, FetchAPI",
+        "tech": "JavaScript",
         "platforms": "Front-End",
         "description": "Web app to save a custom countdown and check whener you want. You can also choose to switch to light or dark mode, settings are saved."
     },
@@ -15,7 +25,7 @@
         "link":"https://rosarioterranova.github.io/Infinite-Reddit-Pics/",
         "linkCode": "https://github.com/rosarioterranova/Infinite-Reddit-Pics",
         "category": "web",
-        "tech": "JavaScript, Vue.js, FetchAPI",
+        "tech": "JavaScript, FetchAPI",
         "platforms": "Front-End",
         "description": "Infinite scrolling app that takes pictures from top reddit pics subreddit using the Reddit Listing API"
     },
