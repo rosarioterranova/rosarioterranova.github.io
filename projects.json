@@ -1,6 +1,15 @@
 [
     {
-        "img":"../img/projects/minikanban.jpg",
+        "img":"/img/projects/swpe.jpg",
+        "title":"Star Wars People Explorer",
+        "linkCode": "https://github.com/rosarioterranova/star-wars-people-explorer",
+        "category": "web",
+        "tech": "JavaScript, React",
+        "platforms": "Front-End",
+        "description": "Web app developed in next.js for api and Static Site Generator features testing"
+    },
+    {
+        "img":"/img/projects/minikanban.jpg",
         "title":"Mini Kanban",
         "link":"https://rosarioterranova.github.io/MiniKanban/",
         "linkCode": "https://github.com/rosarioterranova/MiniKanban",
@@ -10,7 +19,7 @@
         "description": "Web app with drag and drop features that allows to schedule tasks for personal projects. Written in vanilla js"
     },
     {
-        "img":"../img/projects/TheFinalCountDown.jpg",
+        "img":"/img/projects/TheFinalCountDown.jpg",
         "title":"The Final CountDown",
         "link":"https://rosarioterranova.github.io/TheFinalCountdown/",
         "linkCode": "https://github.com/rosarioterranova/TheFinalCountdown",
@@ -20,7 +29,7 @@
         "description": "Web app to save a custom countdown and check whener you want. You can also choose to switch to light or dark mode, settings are saved."
     },
     {
-        "img":"../img/projects/InfiniteRedditPics.jpg",
+        "img":"/img/projects/InfiniteRedditPics.jpg",
         "title":"Infinite Reddit Pics",
         "link":"https://rosarioterranova.github.io/Infinite-Reddit-Pics/",
         "linkCode": "https://github.com/rosarioterranova/Infinite-Reddit-Pics",
@@ -30,7 +39,7 @@
         "description": "Infinite scrolling app that takes pictures from top reddit pics subreddit using the Reddit Listing API"
     },
     {
-        "img":"../img/projects/covid19italia.jpg",
+        "img":"/img/projects/covid19italia.jpg",
         "title":"Covid-19 Italia",
         "link":"https://rosarioterranova.github.io/covid19italia/",
         "linkCode": "https://github.com/rosarioterranova/covid19italia",
@@ -40,7 +49,7 @@
         "description": "Open source online tool to monitoring the number of people infected with COVID-19 in Italy day by day. Data from pcm-dpc/COVID-19, charts by ChartJS"
     },
     {
-        "img":"../img/projects/chat.jpg",
+        "img":"/img/projects/chat.jpg",
         "title":"Chat Web App",
         "linkCode": "https://github.com/rosarioterranova/chat-app/",
         "category": "web",
@@ -49,7 +58,7 @@
         "description": "Realtime web chat made with Node.js and Socket.io"
     },
     {
-        "img":"../img/projects/code.jpg",
+        "img":"/img/projects/code.jpg",
         "title":"Task Manager JS",
         "linkCode": "https://github.com/rosarioterranova/task-manager",
         "category": "web",
@@ -59,7 +68,7 @@
     },
 
     {
-        "img":"../img/projects/termometro.jpg",
+        "img":"/img/projects/termometro.jpg",
         "title":"Termometro Online",
         "link": "https://rosario-playground.000webhostapp.com/termometro-online/",
         "linkCode": "https://github.com/rosarioterranova/termometro-online",
@@ -70,7 +79,7 @@
     },
 
     {
-        "img":"../img/projects/sarioRC.jpg",
+        "img":"/img/projects/sarioRC.jpg",
         "title":"sarioRC",
         "linkCode": "https://github.com/rosarioterranova/sarioRC",
         "category": "web",
@@ -80,7 +89,7 @@
     },
 
     {
-        "img":"../img/projects/mozillaita.jpg",
+        "img":"/img/projects/mozillaita.jpg",
         "title":"Mozilla Italia",
         "link":"https://mozillaitalia.github.io/",
         "category": "web",
@@ -90,7 +99,7 @@
     },
 
     {
-        "img":"../img/projects/metal.jpg",
+        "img":"/img/projects/metal.jpg",
         "title":"Metal: Hellsinger",
         "link":"https://www.youtube.com/watch?v=thAMB3gAXBA",
         "category": "games",
@@ -100,7 +109,7 @@
     },
 
     {
-        "img":"../img/projects/remoth2.jpg",
+        "img":"/img/projects/remoth2.jpg",
         "title":"Remothered: Broken Porcelain",
         "link":"https://www.youtube.com/watch?v=QGiAZf67AUo",
         "category": "games",
@@ -110,7 +119,7 @@
     },
 
     {
-        "img":"../img/projects/remoth.jpg",
+        "img":"/img/projects/remoth.jpg",
         "title":"Remothered: Tormented Fathers",
         "link":"https://www.youtube.com/watch?v=jdj3YPilUP0&feature=emb_title",
         "category": "games",
@@ -120,7 +129,7 @@
     },
 
     {
-        "img":"../img/projects/marvelhero.jpg",
+        "img":"/img/projects/marvelhero.jpg",
         "title":"Marvel Hero Tales",
         "link":"https://www.youtube.com/watch?v=1Tlv6w4tiKE&feature=emb_title",
         "category": "games",
@@ -130,7 +139,7 @@
     },
 
     {
-        "img":"../img/projects/ewa.jpg",
+        "img":"/img/projects/ewa.jpg",
         "title":"Epic World Adventure",
         "link":"https://www.youtube.com/watch?v=WO9BLLDiCZw&feature=emb_title",
         "category": "games",
@@ -140,7 +149,7 @@
     },
 
     {
-        "img":"../img/projects/robozuna.jpg",
+        "img":"/img/projects/robozuna.jpg",
         "title":"Robozuna",
         "link":"https://www.youtube.com/watch?v=0H5LmorewEw&feature=emb_title",
         "platforms": "Android, iOS",
@@ -150,7 +159,7 @@
     },
 
     {
-        "img":"../img/projects/dojym.jpg",
+        "img":"/img/projects/dojym.jpg",
         "title":"Dojym Fighters",
         "link":"https://www.youtube.com/watch?v=lKIwh2yX1ws&feature=emb_title",
         "platforms": "Android, iOS",
@@ -160,7 +169,7 @@
     },
 
     {
-        "img":"../img/projects/elly.jpg",
+        "img":"/img/projects/elly.jpg",
         "title":"Ellybee at School",
         "link":"https://www.youtube.com/watch?v=qlO1X2gOzIw&feature=emb_title",
         "platforms": "Android, iOS",
@@ -170,7 +179,7 @@
     },
 
     {
-        "img":"../img/projects/trip.jpg",
+        "img":"/img/projects/trip.jpg",
         "title":"Trip eMotion",
         "platforms": "PC, Oculus Rift",
         "tech": "Unity, C#",
@@ -180,7 +189,7 @@
     },
 
     {
-        "img":"../img/projects/latage.jpg",
+        "img":"/img/projects/latage.jpg",
         "title":"Latage",
         "link":"https://rosarioterranova.github.io/latage/",
         "linkCode":"https://github.com/rosarioterranova/latage",
@@ -191,7 +200,7 @@
     },
 
     {
-        "img":"../img/projects/medicina.jpg",
+        "img":"/img/projects/medicina.jpg",
         "title":"Ammissione Medicina",
         "link":"http://allaboutwindowsphone.com/software/content/Ammissione-Medicina.php",
         "linkCode": "https://github.com/rosarioterranova/ammissione_medicina_veterinaria",
@@ -202,7 +211,7 @@
     },
 
     {
-        "img":"../img/projects/gps.jpg",
+        "img":"/img/projects/gps.jpg",
         "title":"GPS Localizer Offiline",
         "link":"http://allaboutwindowsphone.com/software/content/GPS-Localizer-Offline.php",
         "linkCode":"https://github.com/rosarioterranova/gps_localizer_offline",
@@ -213,7 +222,7 @@
     },
 
     {
-        "img":"../img/projects/veterinaria.jpg",
+        "img":"/img/projects/veterinaria.jpg",
         "title":"Amissione Veterinaria",
         "link":"http://allaboutwindowsphone.com/software/content/Ammissione-Veterinaria.php",
         "linkCode": "https://github.com/rosarioterranova/ammissione_medicina_veterinaria",
@@ -224,7 +233,7 @@
     },
 
     {
-        "img":"../img/projects/mytrack.jpg",
+        "img":"/img/projects/mytrack.jpg",
         "title":"MyTrack",
         "linkCode":"https://github.com/rosarioterranova/mytrack",
         "category": "mobile",
@@ -234,7 +243,7 @@
     },
 
     {
-        "img":"../img/projects/euclia.jpg",
+        "img":"/img/projects/euclia.jpg",
         "title":"Euclia",
         "link":"http://allaboutwindowsphone.com/software/content/Euclia.php",
         "linkCode":"https://github.com/rosarioterranova/euclia",
@@ -245,7 +254,7 @@
     },
 
     {
-        "img":"../img/projects/slender.jpg",
+        "img":"/img/projects/slender.jpg",
         "title":"Slenderman Returns",
         "link":"http://allaboutwindowsphone.com/software/content/Slenderman-Returns.php",
         "linkCode":"https://github.com/rosarioterranova/slenderman_returns",
@@ -256,7 +265,7 @@
     },
 
     {
-        "img":"../img/projects/grimm.jpg",
+        "img":"/img/projects/grimm.jpg",
         "title":"Fiabe dei Fratelli Grimm",
         "link":"http://allaboutwindowsphone.com/software/content/Le-Fiabe-dei-Fratelli-Grimm-PRO.php",
         "linkCode":"https://github.com/rosarioterranova/fiabe_dei_fratelli_grimm",
@@ -267,7 +276,7 @@
     },
 
     {
-        "img":"../img/projects/fontaine.jpg",
+        "img":"/img/projects/fontaine.jpg",
         "title":"Fiabe di La Fontaine",
         "link":"http://allaboutwindowsphone.com/software/content/Le-favole-di-La-Fontaine.php",
         "category": "mobile",
