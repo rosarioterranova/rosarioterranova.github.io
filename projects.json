@@ -1,7 +1,17 @@
 [
+    {
+        "img":"/img/projects/redditwallpaper.jpg",
+        "title":"Reddit Wallpaper Collection",
+        "linkCode": "https://github.com/rosarioterranova/reddit-wallpaper-collection",
+        "link": "https://rosarioterranova.github.io/reddit-wallpaper-collection/",
+        "category": "web",
+        "tech": "JavaScript, React",
+        "platforms": "Front-End",
+        "description": "A wallpaper explorer with images from tht 'Wallpapers subredit', made with React.js"
+    },
 	{
         "img":"/img/projects/chatterbox.jpg",
-        "title":"chatterbox Voices",
+        "title":"Chatterbox Voices",
         "link": "https://www.chatterboxvoices.co.uk/",
         "category": "web",
         "tech": "JavaScript, React, Nextjs, Wordpress, PHP",
