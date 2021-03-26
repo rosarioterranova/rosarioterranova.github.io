@@ -7,7 +7,7 @@
         "category": "web",
         "tech": "JavaScript, React",
         "platforms": "Front-End",
-        "description": "A wallpaper explorer with images from tht 'Wallpapers subredit', made with React.js"
+        "description": "A wallpaper explorer with images from the 'Wallpapers subreddit', made with React.js"
     },
 	{
         "img":"/img/projects/chatterbox.jpg",
