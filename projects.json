@@ -1,5 +1,15 @@
 [
     {
+        "img":"/img/projects/bat-ball.jpg",
+        "title":"Bat & Ball",
+        "linkCode": "https://github.com/rosarioterranova/bat-and-ball",
+        "link": "https://rosarioterranova.github.io/bat-and-ball/",
+        "category": "web",
+        "tech": "JavaScript",
+        "platforms": "Front-End",
+        "description": "Game made with vanilla javascript and html's canvas. The player controls the bat with the mouse, and has to keep the ball bouncing off the 3 walls. The player gets a point for each successful hit of the bal"
+    },
+    {
         "img":"/img/projects/redditwallpaper.jpg",
         "title":"Reddit Wallpaper Collection",
         "linkCode": "https://github.com/rosarioterranova/reddit-wallpaper-collection",
