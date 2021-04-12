@@ -1,5 +1,15 @@
 [
     {
+        "img":"/img/projects/lofi.jpg",
+        "title":"Lo-Fi Player",
+        "linkCode": "https://github.com/rosarioterranova/lofi-player",
+        "link": "https://rosarioterranova.github.io/lofi-player/",
+        "category": "web",
+        "tech": "JavaScript, React.js",
+        "platforms": "Front-End",
+        "description": "Web audio player made with react js. You can choose an audio from a list of copyright free audios to play."
+    },
+    {
         "img":"/img/projects/bat-ball.jpg",
         "title":"Bat & Ball",
         "linkCode": "https://github.com/rosarioterranova/bat-and-ball",
