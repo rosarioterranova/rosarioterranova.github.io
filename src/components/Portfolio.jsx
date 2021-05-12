@@ -3,16 +3,19 @@ import Card from "./Card"
 
 export default function Portfolio(){
     const [data, setData] = useState([])
-    useEffect(async ()=>{
-        const res = await fetch("https://rosarioterranova.github.io/projects.json")
-        const data = await res.json()
-        setData(data)
+    useEffect(()=>{
+        async function getData(){
+            const res = await fetch("https://rosarioterranova.github.io/projects.json")
+            const data = await res.json()
+            setData(data)
+        }
+        getData()
     },[])
 
     return <div className="portfolio-container">
         <h4 className="text-center my-3 text-dark" id="webapps">Web Apps</h4>
         <div className="row project-row">
-            {data.filter(el => el.category == "web").map(el => (
+            {data.filter(el => el.category === "web").map(el => (
                 <div className="col-12 col-lg-6 p-1 m-0" key={el.title}>
                     <Card title={el.title} description={el.description} image={el.img} link={el.link} linkCode={el.linkCode} tech={el.tech} /> 
                 </div>
@@ -21,7 +24,7 @@ export default function Portfolio(){
         
         <h4 className="text-center my-3 text-dark" id="mobileapps">Mobile Apps</h4>
         <div className="row project-row">
-            {data.filter(el => el.category == "mobile").map(el => (
+            {data.filter(el => el.category === "mobile").map(el => (
                 <div className="col-12 col-lg-6 p-1 m-0" key={el.title}>
                     <Card title={el.title} description={el.description} image={el.img} link={el.link} linkCode={el.linkCode} tech={el.tech} />
                 </div>
@@ -30,7 +33,7 @@ export default function Portfolio(){
 
         <h4 className="text-center my-3 text-dark" id="games">Games</h4>
         <div className="row project-row">
-            {data.filter(el => el.category == "games").map(el => (
+            {data.filter(el => el.category === "games").map(el => (
                 <div className="col-12 col-lg-6 p-1 m-0" key={el.title}>
                     <Card title={el.title} description={el.description} image={el.img} link={el.link} linkCode={el.linkCode} tech={el.tech} />
                 </div>
