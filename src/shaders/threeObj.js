@@ -91,7 +91,7 @@ export default function chreateThreeObj(threeContainerRef){
 
         renderer = new THREE.WebGLRenderer( { antialias: true } );
         renderer.setPixelRatio( window.devicePixelRatio );
-        renderer.setSize( window.innerWidth, document.getElementById("header").offsetHeight);
+        renderer.setSize( document.getElementById("header").offsetWidth, document.getElementById("header").offsetHeight);
         
         container.appendChild( renderer.domElement );
         window.addEventListener( 'resize', onWindowResize );
@@ -103,7 +103,7 @@ export default function chreateThreeObj(threeContainerRef){
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
 
-        renderer.setSize( window.innerWidth, document.getElementById("header").offsetHeight );
+        renderer.setSize( document.getElementById("header").offsetWidth, document.getElementById("header").offsetHeight );
     }
 
 
